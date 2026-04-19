@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEMOB | Fleet Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo">
+            <h1>WEMOB <span>Smart Load Balancer</span></h1>
+        </div>
+        <div class="status-galpao">
+            <div class="kpi">
+                <span>Capacidade Total</span>
+                <strong>150 kW</strong>
+            </div>
+            <div class="kpi highlight">
+                <span>Consumo Atual</span>
+                <strong id="consumo-total">0 kW</strong>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard-layout">
+        <aside class="painel-controles">
+    <h3>Simulador de Chegada</h3>
+    <p style="font-size: 12px; color: #888; margin-bottom: 20px;">Ajuste os valores para testar o algoritmo ao vivo.</p>
+    
+    <div id="controles-vans">
+        </div>
+</aside>
+
+        <section class="visualizacao">
+            <h2>Monitoramento em Tempo Real</h2>
+            <div id="grid-estacoes" class="grid-container">
+                </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
