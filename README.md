@@ -43,4 +43,4 @@ O projeto utiliza uma arquitetura **Full-Stack desacoplada**, simulando um ambie
 ---
 
 ## 👨‍💻 Desenvolvedor
-**Carlos Henrique Morais de Oliveira** *Estudante de Análise e Desenvolvimento de Sistemas* Foco em Desenvolvimento Full-Stack e Soluções para Indústria 4.0.
+**Carlos Henrique Morais de Oliveira** *Estudante de Análise e Desenvolvimento de Sistemas*.
